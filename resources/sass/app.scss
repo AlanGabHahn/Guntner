@@ -1,0 +1,57 @@
+// Fonts
+@import url('http://fonts.googleapis.com/css?family=Roboto');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import 'bootstrap/scss/bootstrap';
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-image: url('http://localhost/images/applications_energy--power_header@2x.png');
+    //background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    opacity: 1;
+}
+main{
+    background: transparent url('http://localhost/images/grupo_49.svg') 0% 0% repeat-y;
+}
+#home{
+    #retangulo{
+        background: transparent url('http://localhost/images/retangulo_168.png') 0% 0% no-repeat padding-box;
+        opacity: 0.8;
+        padding: 4em 6em;
+    }
+    margin-top: 2em;
+    color:#fff;
+    a{
+        color:#fff;
+        text-decoration: none;
+    }
+    a:hover{
+        color:#3C3C3B;
+    }
+    #container-form{
+        padding: 2em 20%;
+    }
+    #title-form{
+        font-size: 22px;
+    }
+    .btn{
+        border-radius: 0!important;
+        background-color:#008FF4;
+        border: 0;
+    }
+    .btn:hover{
+        background-color:#3C3C3B;
+    }
+    #form_messages{
+        margin-top: 2em;
+    }
+    .form-control {
+        border-radius:0 !important;
+    }
+
+}
