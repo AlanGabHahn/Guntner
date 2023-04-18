@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\UserController;
 use App\Http\Controllers\CategorieController;
-use App\Http\Controllers\SubcategorieController;
+use App\Http\Controllers\SubcategorieController; 
 
 /*
 |--------------------------------------------------------------------------
